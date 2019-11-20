@@ -1,5 +1,6 @@
 <html lang="pt-br">
 <head>
+   <link rel="stylesheet" href="teste.css">
     <meta charset="UTF-8">
 </head>
 <body>
@@ -77,11 +78,7 @@
     
     <style>
     
-        h4 {
-            
-            color: red;
-            
-        }
+        
     
     </style>
     

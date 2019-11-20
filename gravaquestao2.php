@@ -1,3 +1,7 @@
+
+   
+<link rel="stylesheet" href="teste.css">
+   
 <?php 
     if(isset($_GET["num"])) {
     
@@ -52,22 +56,5 @@
     
     ?>
     
-    <style>
-    
-        a:visited {
-            
-            color: green;
-            
-        }
-        
-        a {
-            
-            font-size: 18px;
-            
-            
-        }
-
-
-    </style>
     
    <a href="questao2.php">Voltar para o Index</a>
