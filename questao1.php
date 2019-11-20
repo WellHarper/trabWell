@@ -6,7 +6,7 @@
     <div class="container">
        <div class="col-4">
             <h2>Tomadas</h2>
-            <form action="" method="get">
+            <form >
               <label>T1 </label>
                <select name="t1">
         <option value="2">2</option>
@@ -44,22 +44,22 @@
         </div>
     </div>
     <?php
-     if(isset($_GET['t1'])) {
+     if(!empty($_GET['t1'])) {
          
          $t1 = $_GET['t1'];
          
      }
-      if(isset($_GET['t2'])) {
+      if(!empty($_GET['t2'])) {
         
         $t2 = $_GET['t2'];
         
     }
-    if(isset($_GET['t3'])) {
+    if(!empty($_GET['t3'])) {
          
          $t3 = $_GET['t3'];
              
     }
-        if(isset($_GET['t4'])) {
+        if(!empty($_GET['t4'])) {
          
          $t4 = $_GET['t4'];
              
@@ -67,11 +67,23 @@
        
     
         //if(empty($_GET)){//isset($_GET)) {
-            echo $t1+$t2+$t3+$t4-3;
+           
         //}
   
   
     ?>
+    
+    <h4> <?php echo $t1+$t2+$t3+$t4-3; ?></h4>
+    
+    <style>
+    
+        h4 {
+            
+            color: red;
+            
+        }
+    
+    </style>
     
     
 </body>
